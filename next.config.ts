@@ -1,5 +1,3 @@
-
-// next.config.ts
 const nextConfig = {
   experimental: {
     serverActions: true,
@@ -11,5 +9,3 @@ const nextConfig = {
 }
 
 export default nextConfig
-
-

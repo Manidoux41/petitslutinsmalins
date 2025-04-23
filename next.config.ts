@@ -1,6 +1,6 @@
 const nextConfig = {
   experimental: {
-    serverActions: true,
+    serverActions: true, // ✅ CORRECT
   },
   reactStrictMode: true,
   images: {

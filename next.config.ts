@@ -1,12 +1,15 @@
-/** @type {import('next').NextConfig} */
+
+// next.config.ts
 const nextConfig = {
   experimental: {
-    serverActions: true, // Active les Server Actions
-  },
-  images: {
-    domains: ["cdn.shopify.com", "images.unsplash.com"], // adapte si tu utilises d'autres domaines
+    serverActions: true,
   },
   reactStrictMode: true,
+  images: {
+    domains: ["cdn.shopify.com", "images.unsplash.com"],
+  },
 }
 
 export default nextConfig
+
+

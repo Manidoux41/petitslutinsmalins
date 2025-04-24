@@ -21,17 +21,17 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-center mb-10">Nos univers enchantés</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <CategoryCard
-            image="/images/jouets.jpg"
+            image="https://picsum.photos/seed/jouets/600/400"
             title="Jouets éducatifs"
             href="/boutique?categorie=jouets"
           />
           <CategoryCard
-            image="/images/vetements.jpg"
+            image="https://picsum.photos/seed/vetements/600/400"
             title="Vêtements adorables"
             href="/boutique?categorie=vetements"
           />
           <CategoryCard
-            image="/images/deco.jpg"
+            image="https://picsum.photos/seed/deco/600/400"
             title="Décoration magique"
             href="/boutique?categorie=deco"
           />
@@ -44,19 +44,19 @@ export default function HomePage() {
         {/* Tu pourras mapper ici les produits vedettes depuis ta base */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <FeaturedProduct
-            image="/images/sample1.jpg"
+            image="https://picsum.photos/seed/magique1/600/400"
             title="Cube magique éducatif"
             price={29.99}
             href="/produit/cube-magique"
           />
           <FeaturedProduct
-            image="/images/sample2.jpg"
+            image="https://picsum.photos/seed/lapin/600/400"
             title="Combinaison lapin rose"
             price={19.99}
             href="/produit/combinaison-lapin"
           />
           <FeaturedProduct
-            image="/images/sample3.jpg"
+            image="https://picsum.photos/seed/guirlande/600/400"
             title="Guirlande lumineuse féérique"
             price={14.99}
             href="/produit/guirlande-lumineuse"

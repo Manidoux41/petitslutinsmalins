@@ -1,3 +1,7 @@
+/**
+ * @type {import('next').NextConfig}
+ */
+
 const nextConfig = {
   experimental: {
     serverActions: true, // ✅ CORRECT
@@ -8,4 +12,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig

@@ -1,15 +1,12 @@
-/**
- * @type {import('next').NextConfig}
- */
-
+// next.config.ts
 const nextConfig = {
   experimental: {
-    serverActions: true, // ✅ CORRECT
+    serverActions: true,
   },
   reactStrictMode: true,
   images: {
-    domains: ["cdn.shopify.com", "images.unsplash.com"],
+    domains: ["cdn.shopify.com", "images.unsplash.com", "picsum.photos"],
   },
 }
 
-module.exports = nextConfig
+export default nextConfig
